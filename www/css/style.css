@@ -1,1 +1,32 @@
 /* Empty. Add your own CSS if you like */
+
+
+.tabs {
+    height: 50px;
+    background: #007ef6;
+}
+
+.tabs [icon*='settings'] {
+    background: url('../img/buttns.png') no-repeat;
+    background-position: -225px -50px;
+}
+
+.tabs [icon*='relay'] {
+    background: url('../img/buttns.png') no-repeat;
+    background-position: -75px -50px;
+}
+
+.tabs [icon*='history'] {
+    background: url('../img/buttns.png') no-repeat;
+    background-position: -150px -50px;
+}
+
+.tabs [icon*='status'] {
+    background: url('../img/buttns.png') no-repeat;
+    background-position: 0px -50px;
+}
+
+
+.tab-item {
+    max-width: 90px !important;
+}
